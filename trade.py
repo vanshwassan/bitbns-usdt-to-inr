@@ -1,8 +1,8 @@
 from bitbnspy import bitbns
 import json
 import requests
-key = '549DE16DB78E7A6303EECC12801EFF76'
-secretKey = '92E52D62AD4F62C573E1CFC112C33823'
+key = 'PUBLIC_KEY'
+secretKey = 'SECRET_KEY'
 bitbnsObj = bitbns(key, secretKey)
 x = bitbnsObj.currentCoinBalance('USDT')
 x2 = bitbnsObj.currentCoinBalance('INR')
